@@ -1,0 +1,6 @@
+
+\c[onnect]        [DBNAME|- USER|- HOST|- PORT|-]
+\conninfo         display information about current connection
+\l[ist]           lists all databases
+\dt               lists all tables in the current database
+\d TABLENAME      describe schema for a table
