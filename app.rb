@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  p File.open('README.md').read
+  File.open('README.md').readlines.join("<br>")
 end
